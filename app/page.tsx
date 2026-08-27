@@ -125,6 +125,27 @@ export default function Page() {
               <p className="text-xs text-muted-foreground">Workspace</p>
             </div>
           </div>
+
+          <div className="relative mt-3">
+            <input
+              type="text"
+              placeholder="Search"
+              className="h-9 w-full rounded-md border border-input bg-background pl-9 pr-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring/30"
+            />
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <circle cx="11" cy="11" r="6" />
+              <path d="m16 16 4 4" />
+            </svg>
+          </div>
         </SidebarHeader>
 
         <SidebarContent>
